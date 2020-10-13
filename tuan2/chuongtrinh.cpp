@@ -6,6 +6,9 @@ void main() {
 	//bai 1 :
 	Tinh(a, b);
 
+	//bai2 :
+
+
 
 	//bai 3 :
 	congRd();
