@@ -5,9 +5,7 @@ void nhap(int &a, int &b);
 void hcn(int &a, int&b);
 void hv(int&a, int&b);
 void ht(int &a, int&b);
-
+int rand();
 void congRd();
 void truRd();
 void Tinh(int a, int b);
-
-

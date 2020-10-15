@@ -1,5 +1,5 @@
 #include "thuvien.h";
-void main() {
+int main() {
 	int a, b;
 	nhap(a, b);
 	
@@ -7,11 +7,11 @@ void main() {
 	Tinh(a, b);
 
 	//bai2 :
-
-
-
+	hcn();
+	hv();
 	//bai 3 :
 	congRd();
+	//bai 4:
 	truRd();
-	system("pause");
+	return 0;
 }

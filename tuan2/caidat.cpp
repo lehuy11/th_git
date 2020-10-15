@@ -44,9 +44,11 @@ void ht()
 	cout << "\n CV HT" << 2 * 3.14*r;
 }
 
-
+int rand(){
+	int a=rand(1,100);
+	return a;
+}
 	
-
 void congRd() {
 	int a = rand()%100+1;
 	int b = rand()%100+1;
@@ -55,7 +57,7 @@ void congRd() {
 void truRd() {
 	int a = rand() % 100 + 1;
 	int b = rand() % 100 + 1;
-	cout << "\ntong hai so " << a << " va " << b << " la " << a - b;
+	cout << "\nhieu hai so " << a << " va " << b << " la " << a - b;
 }
 void Tinh(int a, int b) {
 	cout << "\n phep tinh cong : " << a + b;
